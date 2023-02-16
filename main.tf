@@ -100,16 +100,6 @@ resource "azurerm_linux_virtual_machine" "vm" {
     version   = "latest"
   }
 
-  connection {
-    type        = "ssh"
-    user        = "cassucena"
-    private_key = file("./azure-key")
-    host        = self.public_ip_address
-  }
 
-  provisioner "file" {
-    content     = "public_Ip: ${self.public_ip_address}"
-    destination = "/tmp/public_ip.log"
-  }
 }
 

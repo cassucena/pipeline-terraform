@@ -1,3 +1,4 @@
+
 name: Terraform Plan
 on: push
 env: 
@@ -16,7 +17,7 @@ jobs:
         shell: bash
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Terraform Init
       run: terraform init

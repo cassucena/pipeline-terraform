@@ -26,7 +26,7 @@ jobs:
       run: terraform validate
 
     - name: Terraform Plan
-      run: terraform pan
+      run: terraform plan
     
 
  

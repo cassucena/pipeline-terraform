@@ -1,5 +1,5 @@
 name: Terraform Apply
-on: workflow_dispath
+on: workflow_dispatch
 env: 
  ARM_CLIENT_ID: ${{secrets.ARM_CLIENT_ID}}
  ARM_TENANT_ID: ${{secrets.ARM_TENANT_ID}} 

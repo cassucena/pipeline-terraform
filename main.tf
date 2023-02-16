@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "rg" {
-  name     = "hmp-cassucena-Terraform-RG"
+  name     = "hmp-cassucena-Terraform"
   location = var.location
 
   tags = local.common_tags

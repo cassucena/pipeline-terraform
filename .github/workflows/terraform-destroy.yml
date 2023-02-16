@@ -12,7 +12,7 @@ jobs:
   terraform:
     name: terraform
     runs-on: ubuntu-latest
-    dafaults:
+    defaults:
       run:
         shell: bash
     steps:

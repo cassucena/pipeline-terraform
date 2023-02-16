@@ -1,4 +1,4 @@
-name: Terrafrom Destroy
+name: Terraform Destroy
 on: workflow_dispath
 env: 
  ARM_CLIENT_ID: ${{secrets.ARM_CLIENT_ID}}
